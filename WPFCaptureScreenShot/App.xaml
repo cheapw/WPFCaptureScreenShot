@@ -1,0 +1,49 @@
+﻿<Application x:Class="WPFCaptureScreenShot.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WPFCaptureScreenShot"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ImageBrush x:Key="DefaultBackground" ImageSource="Images/BackImages/9.jpg" Stretch="UniformToFill"/>
+        <LinearGradientBrush x:Key="1" EndPoint = "0,1" StartPoint = "0,0" >
+            <GradientStop Color = "#a18cd1" Offset = "0" />
+            <GradientStop Color = "#fbc2eb" Offset = "1" />
+        </LinearGradientBrush >
+        <LinearGradientBrush x:Key="2" EndPoint = "0,1" StartPoint = "0,0" >
+            <GradientStop Color = "#d4fc79" Offset = "0" />
+            <GradientStop Color = "#96e6a1" Offset = "1" />
+        </LinearGradientBrush >
+        <LinearGradientBrush x:Key="3" EndPoint = "0,1" StartPoint = "0,0" >
+            <GradientStop Color = "#f6d365" Offset = "0" />
+            <GradientStop Color = "#fda085" Offset = "1" />
+        </LinearGradientBrush >
+        <LinearGradientBrush x:Key="4" EndPoint = "0,1" StartPoint = "0,0" >
+            <GradientStop Color = "#43e97b" Offset = "0" />
+            <GradientStop Color = "#38f9d7" Offset = "1" />
+        </LinearGradientBrush >
+        <LinearGradientBrush x:Key="5" EndPoint = "0,1" StartPoint = "0,0" >
+            <GradientStop Color = "#5ee7df" Offset = "0" />
+            <GradientStop Color = "#b490ca" Offset = "1" />
+        </LinearGradientBrush >
+        <LinearGradientBrush x:Key="6" EndPoint = "0,1" StartPoint = "0,0" >
+            <GradientStop Color = "#96fbc4" Offset = "0" />
+            <GradientStop Color = "#f9f586" Offset = "1" />
+        </LinearGradientBrush >
+        <LinearGradientBrush x:Key="7" EndPoint = "0,1" StartPoint = "0,0" >
+            <GradientStop Color = "#0250c5" Offset = "0" />
+            <GradientStop Color = "#d43f8d" Offset = "1" />
+        </LinearGradientBrush >
+        <LinearGradientBrush x:Key="8" EndPoint = "0,1" StartPoint = "0,0" >
+            <GradientStop Color = "#16a085" Offset = "0" />
+            <GradientStop Color = "#f4d03f" Offset = "1" />
+        </LinearGradientBrush >
+        <LinearGradientBrush x:Key="9" EndPoint = "0,1" StartPoint = "0,0" >
+            <GradientStop Color = "#b224ef" Offset = "0" />
+            <GradientStop Color = "#7579ff" Offset = "1" />
+        </LinearGradientBrush >
+        <LinearGradientBrush x:Key="10" EndPoint = "0,1" StartPoint = "0,0" >
+            <GradientStop Color = "#e8198b" Offset = "0" />
+            <GradientStop Color = "#c7eafd" Offset = "1" />
+        </LinearGradientBrush >
+    </Application.Resources>
+</Application>
